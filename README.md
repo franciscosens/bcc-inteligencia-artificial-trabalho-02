@@ -6,6 +6,19 @@ Alunos:
 * Francisco Lucas Sens
 * William Lopes da Silva
 
+# Conteúdo
+
+## Unidade I - Fundamentos de Inteligência Artificial :
+* [Agentes Inteligentes](assets/conteudos/Unidade01_AgentesInteligentes.pdf)
+
+## Unidade II - Busca :
+* [Busca](assets/conteudos/Unidade02_Busca.pdf)
+* [Busca Cega ou Exaustiva](assets/conteudos/Unidade02_BuscaCega.pdf)
+* [Busca Heurística](assets/conteudos/Unidade02_AlgoritmosGeneticos.pdf)
+* [Algoritmos Genéticos](assets/conteudos/Unidade02_BuscaHeuristica.pdf)
+
+# Enunciado: 
+
 Nas últimas aulas estudamos que um agente baseado em objetivo em um ambiente adequadamente definido pode atingir seu objetivo através de algoritmos de busca. Para utilizar uma estratégia de busca, precisamos:
 * Definir o estado objetivo (por exemplo, estar em Bucareste)
 * Definir o problema:
