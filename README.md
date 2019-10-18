@@ -62,3 +62,32 @@ Utilize também a função Plot para mostrar os pontos e o melhor caminho encont
 * Por favor, não esqueça de comentar suas linhas de código (explicações simples são suficientes).
 * Você pode trabalhar em grupos. Neste caso, me envie apenas uma versão para todo o grupo, especificando também os nomes de todos os outros colegas.
   * T2_Aluno1_Aluno2_Aluno3.zip ou .py
+
+```
+%Funcao de aptidão para o problema do caixeiro viajante MATLAB
+function dist=cvfun(populacao)
+
+  % Utiliza variaveis globais "x" e "y"
+  global x y
+  [NumPop,NumCidades]=size(populacao);
+  tour=[populacao populacao(:,1)]; % gera a matriz 20x21 da populacao onde a ultima
+  % coluna eh a copia da primeira coluna (o agente deve voltar a cidade inicial)
+
+  %distancia entre as cidades
+  for i=1:NumCidades
+    for j=1:NumCidades
+      %distCidade eh uma matriz identidade 20X20
+      distCidade(i,j)=sqrt((x(i)-x(j))^2+(y(i)-y(j))^2);
+    end % i
+  end % j
+
+  % custo de cada cromossomo
+  for i=1:NumPop
+    dist(i,1)=0;
+    for j=1:NumCidades
+      % Soma das distancias para cada cromossomo
+      dist(i,1)=dist(i)+distCidade(tour(i,j),tour(i,j+1));
+    end % j
+  end % i
+end
+```
