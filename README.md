@@ -9,13 +9,13 @@ Alunos:
 # Conteúdo
 
 ## Unidade I - Fundamentos de Inteligência Artificial :
-* [Agentes Inteligentes](assets/conteudos/Unidade01_AgentesInteligentes.pdf)
+* [Agentes Inteligentes](assets/conteudos/Unidade01_1_AgentesInteligentes.pdf)
 
 ## Unidade II - Busca :
-* [Busca](assets/conteudos/Unidade02_Busca.pdf)
-* [Busca Cega ou Exaustiva](assets/conteudos/Unidade02_BuscaCega.pdf)
-* [Busca Heurística](assets/conteudos/Unidade02_AlgoritmosGeneticos.pdf)
-* [Algoritmos Genéticos](assets/conteudos/Unidade02_BuscaHeuristica.pdf)
+* [Busca](assets/conteudos/Unidade02_0_Busca.pdf)
+* [Busca Cega ou Exaustiva](assets/conteudos/Unidade02_1_BuscaCega.pdf)
+* [Busca Heurística](assets/conteudos/Unidade02_2_BuscaHeuristica.pdf)
+* [Algoritmos Genéticos](assets/conteudos/Unidade02_3_AlgoritmosGeneticos.pdf)
 
 # Enunciado: 
 
